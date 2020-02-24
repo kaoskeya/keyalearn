@@ -1,7 +1,0 @@
-README.md
-setup.py
-keyalearn/__init__.py
-keyalearn_kaoskeya.egg-info/PKG-INFO
-keyalearn_kaoskeya.egg-info/SOURCES.txt
-keyalearn_kaoskeya.egg-info/dependency_links.txt
-keyalearn_kaoskeya.egg-info/top_level.txt
