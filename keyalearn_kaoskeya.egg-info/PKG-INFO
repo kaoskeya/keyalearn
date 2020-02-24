@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: keyalearn-kaoskeya
+Version: 0.0.2
+Summary: A package to assist in machine learning.
+Home-page: https://github.com/kaoskeya/keyalearn
+Author: Karthikeyan Sekizhar
+Author-email: k@kaos.agency
+License: UNKNOWN
+Description: # keyalearn
+        
+        A package to assist in my machine learning classes with quick functions for some common tasks done.
+        
+        Stands on the giant shoulders of other packages.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
