@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="keyalearn-kaoskeya", # Replace with your own username
-    version="0.0.3",
+    version="0.1.2",
     author="Karthikeyan Sekizhar",
     author_email="k@kaos.agency",
     description="A package to assist in machine learning.",
@@ -17,6 +17,10 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+    ],
+    install_requires=[
+        'numpy',
+        'sklearn'
     ],
     python_requires='>=3.6',
 )

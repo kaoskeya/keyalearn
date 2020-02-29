@@ -1,3 +1,5 @@
+from sklearn.model_selection import train_test_split
+
 def randomStateSelection(model, f, l, ts=0.2):
   max_score = 0
   random_state = 0
@@ -8,8 +10,11 @@ def randomStateSelection(model, f, l, ts=0.2):
     train_score = model.score(X_train, y_train)
     test_score = model.score(X_test, y_test)
 
-    if(test_score > train_score) and test_score > max_score:
+    if(test_score > train_score) and test_score >= max_score:
       max_score = test_score
       random_state = i
+  if random_state == 0:
+    print("Unbalanced model")
+    return 0
   print("Use random state {} for the highest score of {}".format(random_state, max_score))
   return random_state
