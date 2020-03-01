@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="keyalearn-kaoskeya", # Replace with your own username
-    version="0.1.6",
+    version="0.2.1",
     author="Karthikeyan Sekizhar",
     author_email="k@kaos.agency",
     description="A package to assist in machine learning.",
